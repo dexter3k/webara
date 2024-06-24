@@ -8,7 +8,12 @@ export default {
     fontFamily: {
       'sans': ['Roboto'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'red-base': '#ef313f',
+        'white-bg': '#fefdfd',
+      },
+    },
   },
   plugins: [],
 }
