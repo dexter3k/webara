@@ -7,6 +7,7 @@ import {
 
 import Root from './routes/root/root.jsx';
 import Home from './routes/home/home.jsx';
+import Events from './routes/events/events.jsx';
 
 import './index.css';
 
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+
+      {
+        path: "events",
+        element: <Events />,
+      }
     ],
   },
 ]);

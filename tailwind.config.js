@@ -12,6 +12,8 @@ export default {
       colors: {
         'red-base': '#ef313f',
         'white-bg': '#fefdfd',
+        'grad-white': '#f1f1f1',
+        'grad-pink': '#ffe7e7',
       },
     },
   },
